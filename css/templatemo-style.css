@@ -29,7 +29,7 @@ body, html {
 
 
 .page-heading {
-  background-image: url(../img/heading_bg.png);
+  background-image: url(http://www.rhodesonthepawtuxet.com/wp-content/themes/options/images/skins/headers/boxed/header-midnightBlue.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -190,7 +190,7 @@ nav {
 }
 
 .overlay-menu.open .main-menu:nth-child(2) {
-  transition-delay: 1.25s;
+  transition-delay: 0.25s;
 }
 
 .overlay-menu {
@@ -211,7 +211,7 @@ nav {
 }
 
 .overlay-menu ul li a {
-  font-size: 24px;
+  font-size: 34px;
   font-weight: 300;
   color: #fff;
   text-decoration: none;
@@ -316,6 +316,11 @@ nav {
 
 
 .portfolio-item img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.portfolio-item video {
   width: 100%;
   overflow: hidden;
 }
@@ -966,8 +971,8 @@ footer a:hover {
 
 .blog-post {
   border-bottom: 1px solid #414141;
-  padding-bottom: 65px;
-  margin-bottom: 60px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .blog-post img {
@@ -1013,7 +1018,7 @@ footer a:hover {
 }
 
 .blog-post .text-content .simple-btn a {
-  font-size: 13px;
+  font-size: 23px;
   text-transform: uppercase;
   font-weight: 600;
   background-color: transparent;
