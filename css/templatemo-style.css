@@ -29,7 +29,7 @@ body, html {
 
 
 .page-heading {
-  background-image: url(headerblue.jpg);
+  background-image: url(../headerblue.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
